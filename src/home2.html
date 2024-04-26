@@ -26,7 +26,7 @@
 
 <h2>CSV Reader with Search</h2>
 
-<input type="text" id="searchInput" onkeyup="search()" placeholder="Search for names..">
+<input type="text" id="searchInput" onkeyup="search()" placeholder="Search for terms..">
 
 <table id="dataTable">
   <thead>
@@ -42,21 +42,26 @@
 
 <script>
 function search() {
-    var input, filter, table, tr, td, i, txtValue;
+    var input, filter, table, tr, td, i, j, txtValue;
     input = document.getElementById("searchInput");
     filter = input.value.toUpperCase();
     table = document.getElementById("dataTable");
     tr = table.getElementsByTagName("tr");
     for (i = 0; i < tr.length; i++) {
-        td = tr[i].getElementsByTagName("td")[0]; // Change index according to your CSV structure
-        if (td) {
-            txtValue = td.textContent || td.innerText;
+        var found = false;
+        td = tr[i].getElementsByTagName("td");
+        for (j = 0; j < td.length; j++) {
+            txtValue = td[j].textContent || td[j].innerText;
             if (txtValue.toUpperCase().indexOf(filter) > -1) {
-                tr[i].style.display = "";
-            } else {
-                tr[i].style.display = "none";
+                found = true;
+                break;
             }
-        }       
+        }
+        if (found) {
+            tr[i].style.display = "";
+        } else {
+            tr[i].style.display = "none";
+        }
     }
 }
 
