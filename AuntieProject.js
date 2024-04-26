@@ -35,3 +35,14 @@ possibly just using existing code from https://medium.com/@vivekvashistha/csv-re
 
 
 Two seperate views for Android and iOS devices
+
+
+
+
+
+
+code snippet for sorting Steno CSV:
+
+
+DataFrame filteredDataframa = dataFrame
+            .filter()

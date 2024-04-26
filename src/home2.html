@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSV Reader with Search</title>
+<style>
+    #searchInput {
+        margin-bottom: 10px;
+    }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+    th {
+        background-color: #008080;
+    }
+</style>
+</head>
+<body>
+
+<h2>CSV Reader with Search</h2>
+
+<input type="text" id="searchInput" onkeyup="search()" placeholder="Search for names..">
+
+<table id="dataTable">
+  <thead>
+    <tr>
+      <th>Steno Term</th>
+      <th>Full English</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Table body will be populated dynamically -->
+  </tbody>
+</table>
+
+<script>
+function search() {
+    var input, filter, table, tr, td, i, txtValue;
+    input = document.getElementById("searchInput");
+    filter = input.value.toUpperCase();
+    table = document.getElementById("dataTable");
+    tr = table.getElementsByTagName("tr");
+    for (i = 0; i < tr.length; i++) {
+        td = tr[i].getElementsByTagName("td")[0]; // Change index according to your CSV structure
+        if (td) {
+            txtValue = td.textContent || td.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                tr[i].style.display = "";
+            } else {
+                tr[i].style.display = "none";
+            }
+        }       
+    }
+}
+
+// Function to read CSV file
+function readCSV() {
+    var input = document.getElementById("fileInput");
+    var file = input.files[0];
+    var reader = new FileReader();
+    reader.onload = function(e) {
+        var table = document.getElementById("dataTable").getElementsByTagName('tbody')[0];
+        var rows = e.target.result.split("\n");
+        for (var i = 0; i < rows.length; i++) {
+            var cells = [];
+            var content = '';
+            var insideQuote = false;
+            for (var j = 0; j < rows[i].length; j++) {
+                if (rows[i][j] === '"') {
+                    insideQuote = !insideQuote;
+                } else if (rows[i][j] === ',' && !insideQuote) {
+                    cells.push(content.trim());
+                    content = '';
+                } else {
+                    content += rows[i][j];
+                }
+            }
+            cells.push(content.trim()); // Push the remaining content
+            if (cells.length > 1) {
+                var row = table.insertRow(-1);
+                for (var k = 0; k < cells.length; k++) {
+                    var cell = row.insertCell(-1);
+                    cell.innerHTML = cells[k];
+                }
+            }
+        }
+    };
+    reader.readAsText(file);
+}
+</script>
+
+<label for="fileInput">Upload CSV File:</label>
+<input type="file" id="fileInput" accept=".csv" onchange="readCSV()">
+
+</body>

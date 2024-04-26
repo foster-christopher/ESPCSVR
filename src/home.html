@@ -1,0 +1,83 @@
+<!-- // pseudocode for onpageLoad
+// DataFrame ESPCVR = CSVReader.readCSV(Data.csv"); -->
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My JavaScript Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #008080;
+            color: #fef7f7;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        p {
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            background-color: #9fdbb9;
+            color: #fff;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to ESPCSVR Home Page</h1>
+        <p>This is the steno app front page.</p>
+        <p>Click the buttons below to learn more:</p>
+        <button id="learnMoreBtn">Learn More</button>
+        
+    </div>
+
+    <div class="container">
+        <p>This is the search field.</p>
+        <form id="SearchField">
+            <label for="steno">Steno Term:</label>
+            <input type="text" id="Steno">
+        </form>
+        <br>
+        <button id="Launcher">Initiate Search</button>
+    </div>
+
+    <script>
+        // Add JavaScript functionality here
+        document.getElementById('learnMoreBtn').addEventListener('click', function() {
+            alert('This is just a test! There is nothing more to see.');
+        });
+        document.getElementById('Launcher').addEventListener('click', function() {
+            alert('This launches the search function.');
+            
+            
+
+            //pseudo code for sort function for input
+            //onClick dataFrame stenoFrame = dataFrame
+                               // .filter
+        }
+    </script>
+</body>
+</html>
