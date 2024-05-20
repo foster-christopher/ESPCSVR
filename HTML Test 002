@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSV Reader with Search</title>
+<style>
+    #searchInput {
+        margin-bottom: 10px;
+    }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+    th {
+        background-color: #008080;
+        color: white;
+    }
+    #searchButton {
+        margin-bottom: 10px;
+    }
+</style>
+</head>
+<body>
+
+<h2>CSV Reader with Search</h2>
+
+<input type="text" id="searchInput" placeholder="Search for terms..">
+<button id="searchButton" onclick="search()">Search</button>
+
+<table id="dataTable">
+  <thead>
+    <tr>
+      <th>Steno Term</th>
+      <th>Full English</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Table body will be populated dynamically -->
+  </tbody>
+</table>
+
+<script>
+// Search function defined outside of DOMContentLoaded to ensure it is globally accessible
+function search() {
+    var input, filter, table, tr, td, i, j, txtValue;
+    input = document.getElementById("searchInput");
+    filter = input.value.toUpperCase();
+    table = document.getElementById("dataTable");
+    tr = table.getElementsByTagName("tr");
+    for (i = 0; i < tr.length; i++) {
+        var found = false;
+        td = tr[i].getElementsByTagName("td");
+        for (j = 0; j < td.length; j++) {
+            txtValue = td[j].textContent || td[j].innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                found = true;
+                break;
+            }
+        }
+        if (found) {
+            tr[i].style.display = "";
+        } else {
+            tr[i].style.display = "none";
+        }
+    }
+}
+
+// Ensure the script runs after the DOM is fully loaded
+document.addEventListener('DOMContentLoaded', function() {
+    // Function to read CSV file
+    function readCSV() {
+        var csvFilePath = 'https://raw.githubusercontent.com/foster-christopher/ESPCSVR/main/datatest.csv';
+        fetch(csvFilePath)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.text();
+        })
+        .then(data => {
+            console.log('CSV data fetched successfully');
+            var table = document.getElementById("dataTable").getElementsByTagName('tbody')[0];
+            var rows = data.split("\n");
+            for (var i = 0; i < rows.length; i++) {
+                var cells = [];
+                var content = '';
+                var insideQuote = false;
+                for (var j = 0; j < rows[i].length; j++) {
+                    if (rows[i][j] === '"') {
+                        insideQuote = !insideQuote;
+                    } else if (rows[i][j] === ',' && !insideQuote) {
+                        cells.push(content.trim());
+                        content = '';
+                    } else {
+                        content += rows[i][j];
+                    }
+                }
+                cells.push(content.trim()); // Push the remaining content
+                if (cells.length > 1) {
+                    var row = table.insertRow(-1);
+                    for (var k = 0; k < cells.length; k++) {
+                        var cell = row.insertCell(-1);
+                        cell.innerHTML = cells[k];
+                    }
+                }
+            }
+        })
+        .catch(error => console.error('Error fetching CSV file:', error));
+    }
+
+    // Call readCSV function on page load
+    readCSV();
+});
+</script>
+
+</body>
+</html>
