@@ -1,94 +1,3 @@
-#NAME?,{'s}
-#NAME?,{^ed}
-#NAME?,{^ed}
-#NAME?,{^s}
-#NAME?,{'s}
-#NAME?,it
-#NAME?,itself
-#NAME?,itself
-#NAME?,{^}{l1}th{l0}
-#NAME?,{^ing}
-#NAME?,"{,}"
-#NAME?,{^ings}
-#NAME?,account
-#NAME?,little
-#NAME?,el
-#NAME?,also
-#NAME?,also
-#NAME?,letter
-#NAME?,lettered
-#NAME?,letters
-#NAME?,letters
-#NAME?,{^ing}
-#NAME?,also
-#NAME?,lettering
-#NAME?,little
-#NAME?,little
-#NAME?,be
-#NAME?,"{,}"
-#NAME?,beside
-#NAME?,besides
-#NAME?,"{,}"
-#NAME?,be
-#NAME?,besides
-#NAME?,accounts
-#NAME?,besides
-#NAME?,being
-#NAME?,understanding
-#NAME?,besides
-#NAME?,beings
-#NAME?,account
-#NAME?,accounted
-#NAME?,accounts
-#NAME?,accounts
-#NAME?,accounts
-#NAME?,be
-#NAME?,beside
-#NAME?,besides
-#NAME?,buildings
-#NAME?,besides
-#NAME?,building
-#NAME?,buildings
-#NAME?,buildings
-#NAME?,account
-#NAME?,accounts
-#NAME?,accounts
-#NAME?,accounts
-#NAME?,{.}
-#NAME?,understand
-#NAME?,presidency
-#NAME?,president
-#NAME?,president
-#NAME?,presidents
-#NAME?,{^ing}
-#NAME?,understanding
-#NAME?,understanding
-#NAME?,presidential
-#NAME?,{.}
-#NAME?,also
-#NAME?,{^ment}
-#NAME?,{^ments}
-#NAME?,many
-#NAME?,many
-#NAME?,knowledge
-#NAME?,understanding
-#NAME?,{.}
-#NAME?,understand
-#NAME?,understands
-#NAME?,{^ns}
-#NAME?,not
-#NAME?,not
-#NAME?,{^nth}
-#NAME?,being
-#NAME?,understanding
-#NAME?,understandings
-#NAME?,understanding
-#NAME?,understanding
-#NAME?,knowledge
-#NAME?,understand
-#NAME?,knowledge
-#NAME?,understanding
-#NAME?,buildings
 -R,or
 #NAME?,"{,}"
 #NAME?,"{,?}"
@@ -842,7 +751,7 @@ EUFRPBLTSDZ,I
 EUFRPBLGS,I
 EUFRPBLGSZ,I
 *,{DELETE}
-*Z,{^}º
+*Z,{^}Âº
 *D,{^}'d
 *S,{l1}{^s}{l0}
 *GS,{^ings}
@@ -3047,7 +2956,7 @@ A*EFRPBSZ,Arizona
 A*EFRPBL,average
 A*EFRPBLG,average
 A*EU,8
-A*EUZ,8º
+A*EUZ,8Âº
 A*EUD,aide
 A*EUDZ,aides
 A*EUS,Ace
@@ -4173,10 +4082,10 @@ REPGSZ,representations
 REPGT,representing
 REPGTD,representing
 REPGTS,representing
-REPLZ,résumé
+REPLZ,rÃ©sumÃ©
 REPLD,recommend
 REPLDZ,recommends
-REPLSZ,résumés
+REPLSZ,rÃ©sumÃ©s
 REPLT,represent
 REPLTD,recommended
 REPLTDZ,recommends
@@ -4610,10 +4519,10 @@ R*EPSZ,recipes
 R*EPGS,reputation
 R*EPGSZ,reputations
 R*EPL,realm
-R*EPLZ,résumé
+R*EPLZ,rÃ©sumÃ©
 R*EPLD,recommending
 R*EPLS,realms
-R*EPLSZ,résumés
+R*EPLSZ,rÃ©sumÃ©s
 R*EPLGS,redemption
 R*EPB,Rene
 R*EPBS,residency
@@ -4648,8 +4557,8 @@ R*EFPS,representatives
 R*EFPT,representative
 R*EFPTS,representatives
 R*EFPL,respectfully
-R*EFPLZ,résumé
-R*EFPLSZ,résumés
+R*EFPLZ,rÃ©sumÃ©
+R*EFPLSZ,rÃ©sumÃ©s
 R*EFPLT,relevant
 R*EFPB,revenue
 R*EFPBD,reverend
@@ -7124,7 +7033,7 @@ HOUFRPLS,how
 HOUFRPLTDZ,households
 HOUFRPB,how
 HOE,hoe
-HOEZ,José
+HOEZ,JosÃ©
 HOED,hoed
 HOEDZ,Hodes
 HOES,hose
@@ -7193,7 +7102,7 @@ HOERPLZ,homeowners
 HOERPLS,hormones
 HOERPB,on
 HOERPBLT,horizontally
-HOEFZ,José
+HOEFZ,JosÃ©
 HOEFT,host
 HOEFTD,hosted
 HOEFTS,hosts
@@ -7357,7 +7266,7 @@ HO*ERPL,Homer
 HO*ERPB,honorary
 HO*ERPBTD,on
 HO*ERPBL,homier
-HO*EFZ,José
+HO*EFZ,JosÃ©
 HO*EFL,hopefully
 HO*EFLS,hopefully
 HO*EFPB,Hoeven
@@ -10866,7 +10775,7 @@ W*UP,1
 W*UPB,1
 W*UPBZ,one's
 W*UPBD,1-{^}
-W*UPBDZ,1º
+W*UPBDZ,1Âº
 W*UPBS,ones
 W*URPB,1
 W*UFP,one
@@ -17694,7 +17603,7 @@ PHUPZ,multiple
 PHUPL,mum
 PHUPLS,mums
 PHUPB,menu
-PHUPBZ,Muñoz
+PHUPBZ,MuÃ±oz
 PHUPBD,mund
 PHUPBS,menus
 PHUPBTS,Muntz
@@ -18159,7 +18068,7 @@ PH*BG,M{l1}c{l0}{^}{-|}
 PH*BGD,M{l1}c{l0}Donald
 PH*BGDZ,M{l1}c{l0}Donald's
 PH*BGSDZ,M{l1}c{l0}Donald's
-PH*BGTDZ,M{l1}c{l0}Donald’s
+PH*BGTDZ,M{l1}c{l0}DonaldÂ’s
 PH*P,MP
 PH*PZ,MP{l1}s{l0}
 PH*PD,multiplied
@@ -18207,7 +18116,7 @@ PH*UPLS,multiples
 PH*UPLT,multiple
 PH*UPLTS,multiples
 PH*UPB,Munn
-PH*UPBZ,Muñoz
+PH*UPBZ,MuÃ±oz
 PH*UPBS,Muncie
 PH*UR,Murray
 PH*URD,Murdock
@@ -18503,7 +18412,7 @@ PHORPBGT,monitoring
 PHORPBL,mortgage
 PHORPBLD,Moreland
 PHORPBLT,Montreal
-PHORPBLTD,Montréal
+PHORPBLTD,MontrÃ©al
 PHORPBLG,mortgage
 PHORPBLGD,mortgaged
 PHORPBLGS,mortgages
@@ -19684,7 +19593,7 @@ PHAOUPLT,monument
 PHAOUPLTD,monumented
 PHAOUPLTS,monuments
 PHAOUPB,immune
-PHAOUPBZ,Muñoz
+PHAOUPBZ,MuÃ±oz
 PHAOUPBD,mound
 PHAOUPBT,immunity
 PHAOUPBTD,immunity
@@ -19987,7 +19896,7 @@ PHAO*ULS,molecules
 PHAO*ULTDZ,multitudes
 PHAO*UPLT,monumental
 PHAO*UPB,immuno{^}
-PHAO*UPBZ,Muñiz
+PHAO*UPBZ,MuÃ±iz
 PHAO*UPBGS,munition
 PHAO*UR,Muir
 PHAO*URL,molecular
@@ -26175,7 +26084,7 @@ KAERPT,carpenter
 KAERPTS,carpenters
 KAERPL,Carmen
 KAERPB,cannery
-KAEF,café
+KAEF,cafÃ©
 KAEFS,cafes
 KAEFL,California
 KAEFLTSDZ,in
@@ -29429,9 +29338,9 @@ KHRAOERS,clears
 KHRAOERG,clearing
 KHRAOERL,clearly
 KHRAOERLD,cleared
-KHRAOERB,cliché
+KHRAOERB,clichÃ©
 KHRAOERBD,cleared
-KHRAOERBS,clichés
+KHRAOERBS,clichÃ©s
 KHRAOERBGT,clearcut
 KHRAOERP,clear
 KHRAOERPL,clear
@@ -29516,7 +29425,7 @@ KHRAO*EBG,clique
 KHRAO*EPS,calls
 KHRAO*EPB,Colleen
 KHRAO*ER,unclear
-KHRAO*ERB,cliché
+KHRAO*ERB,clichÃ©
 KHRAO*EF,cleave
 KHRAO*EFD,Cleveland
 KHRAO*EFLD,Cleveland
@@ -29624,8 +29533,8 @@ KWELD,quelled
 KWELS,quells
 KWELG,scheduling
 KWELGS,questions
-KWEB,Québec
-KWEBZ,Québec
+KWEB,QuÃ©bec
+KWEBZ,QuÃ©bec
 KWEBS,consequence
 KWEBSZ,consequences
 KWEBG,we
@@ -30217,1400 +30126,3 @@ KWAO*EZ,queasy
 KWAO*EPBZ,Queensland
 KWAO*ER,queer
 KWAO*EUZ,"{.}
-KWAO*EUD  =  acquired
-KWAO*EUT  =  quiet
-KWAO*EULT  =  quietly
-KWAO*EUR  =  choir
-KWAO*EURD  =  acquired
-KWAO*EURS  =  choirs
-KWAO*EURT  =  quieter
-KWAO*EURBG  =  Iraqi
-KWAO*EUFS  =  equivalency
-KWAO*EUFL  =  unequivocally
-KWAO*EUFLS  =  equivalency
-KWAO*EUFPB  =  confine
-KWR  =  why
-KWR-D  =  idea
-KWR-DZ  =  ideas
-KWR-S  =  why is
-KWR-SDZ  =  ideas
-KWR-T  =  why the
-KWR-TD  =  why they
-KWR-TDZ  =  ideas
-KWR-TSDZ  =  why this
-KWR-GS  =  why is
-KWR-LZ  =  idealize
-KWR-LD  =  ideal
-KWR-LDZ  =  ideals
-KWR-LS  =  why else
-KWR-LGZ  =  utilization
-KWR-LGD  =  ideology
-KWR-LGDZ  =  ideologies
-KWR-LGTS  =  why that
-KWR-B  =  why not
-KWR-P  =  Europe
-KWR-PS  =  Europe's
-KWR-PL  =  Yemen
-KWR-PLT  =  judgments
-KWR-PLTS  =  judgments
-KWR-PB  =  why not
-KWR-PBD  =  beyond
-KWR-PBT  =  why not
-KWR-PBG  =  young
-KWR-PBLD  =  beyond
-KWR-PBLTS  =  analytics
-KWR-R  =  why are
-KWR-RT  =  why are the
-KWR-RTD  =  why are they
-KWR-RBD  =  why should
-KWR-RBG  =  you can respond
-KWR-RP  =  why were
-KWR-RPLS  =  why did
-KWR-RPBLGS  =  why don't
-KWR-FS  =  why was
-KWR-FSZ  =  why wasn't
-KWR-FG  =  utilizing
-KWR-FLGS  =  utilization
-KWR-FBG  =  idealistic
-KWR-FPLD  =  {&y}
-KWR-FPLS  =  why hasn't
-KWR-FPLT  =  {&Y}
-KWR-FPBT  =  why haven't
-KWR-FRS  =  why was
-KWR-FRBLG  =  why we
-KWRU  =  I couldn't
-KWRUZ  =  I couldn't see
-KWRUS  =  I couldn't say
-KWRUT  =  I couldn't tell
-KWRUTSDZ  =  youth
-KWRUG  =  I couldn't go
-KWRUGD  =  why you got
-KWRUGS  =  I couldn't guess
-KWRUGT  =  I couldn't get
-KWRUL  =  Yule
-KWRULZ  =  utilize
-KWRULD  =  utilized
-KWRULS  =  I couldn't say
-KWRULT  =  utility
-KWRULTS  =  utilities
-KWRULGS  =  utilization
-KWRUB  =  I couldn't be
-KWRUBZ  =  why couldn't you describe
-KWRUBG  =  yuck
-KWRUBGTD  =  constructed
-KWRUBL  =  why you believe
-KWRUBLD  =  why you believed
-KWRUBLT  =  I wouldn't be able to
-KWRUBLG  =  why you cannot
-KWRUP  =  {^up}
-KWRUPD  =  up-to-date
-KWRUPDZ  =  United States
-KWRUPS  =  {^ups}
-KWRUPT  =  update
-KWRUPTD  =  updated
-KWRUPTS  =  updates
-KWRUPG  =  young
-KWRUPGS  =  young
-KWRUPGT  =  updating
-KWRUPL  =  yum
-KWRUPLS  =  yums
-KWRUPLG  =  upcoming
-KWRUPB  =  81
-KWRUPBD  =  I couldn't understand
-KWRUPBDZ  =  United States
-KWRUPBS  =  I couldn't answer
-KWRUPBSDZ  =  United States
-KWRUPBTD  =  united
-KWRUPBTDZ  =  United States
-KWRUPBTS  =  United States
-KWRUPBTSZ  =  units
-KWRUPBTSDZ  =  United States
-KWRUPBG  =  young
-KWRUPBGD  =  United States
-KWRUPBGS  =  Youngs
-KWRUPBGT  =  youngest
-KWRUPBL  =  Yunel
-KWRUPBLDZ  =  United States
-KWRUPBLTDZ  =  United States
-KWRUPBLTSDZ  =  units
-KWRUPBLGT  =  youngest
-KWRUR  =  Euro
-KWRURZ  =  euros
-KWRURD  =  I couldn't read
-KWRURS  =  yourself
-KWRURSZ  =  yourselves
-KWRURT  =  yurt
-KWRURG  =  I couldn't agree
-KWRURGS  =  yourself
-KWRURL  =  I couldn't recall
-KWRURB  =  crush
-KWRURBD  =  crushed
-KWRURBS  =  yourself
-KWRURP  =  why you were
-KWRURPG  =  young
-KWRURPL  =  I couldn't remember
-KWRURPLS  =  why you did
-KWRURPLSZ  =  why you did not
-KWRURPBZ  =  your Honor
-KWRURPBDZ  =  United States
-KWRURPBG  =  younger
-KWRURPBLGS  =  why you do
-KWRUF  =  I couldn't have
-KWRUFD  =  I couldn't find
-KWRUFS  =  Yusef
-KWRUFT  =  just
-KWRUFGS  =  utilization
-KWRUFL  =  utilize
-KWRUFLD  =  utilized
-KWRUFLS  =  utilizes
-KWRUFLSZ  =  utilizes
-KWRUFLTD  =  just
-KWRUFLG  =  utilizing
-KWRUFLGS  =  utilization
-KWRUFPT  =  why you hadn't
-KWRUFPLT  =  EU
-KWRUFPBD  =  I couldn't find
-KWRUFRD  =  university
-KWRUFRS  =  yourself
-KWRUFRT  =  university
-KWRUFRTD  =  university
-KWRUFRTS  =  universities
-KWRUFRTSZ  =  universities
-KWRUFRTSDZ  =  United States
-KWRUFRG  =  why you went
-KWRUFRLT  =  university
-KWRUFRLTSZ  =  universities
-KWRUFRLGTS  =  urologists
-KWRUFRBTS  =  universities
-KWRUFRPBD  =  I couldn't find
-KWRE  =  yes
-KWRED  =  yesterday
-KWREDZ  =  yesterday's
-KWRES  =  questions
-KWRESZ  =  yeses
-KWRET  =  yet
-KWRETD  =  yesterday
-KWREG  =  question
-KWREL  =  yell
-KWRELD  =  yelled
-KWRELS  =  yells
-KWRELT  =  yet
-KWRELG  =  yelling
-KWRELGS  =  yelling
-KWRELGT  =  why he thought
-KWREBGD  =  82{l1}nd{l0}
-KWREBGT  =  correct
-KWREBLD  =  why he believed
-KWREP  =  yep
-KWREPDZ  =  {^ends}
-KWREPT  =  yet
-KWREPTD  =  why he wanted
-KWREPL  =  yes, ma'am
-KWREPB  =  {^en}
-KWREPBD  =  {^ened}
-KWREPBS  =  {^ens}
-KWREPBTD  =  {^end}
-KWREPBG  =  {^ening}
-KWREPBL  =  {^en}
-KWRER  =  yer
-KWRERZ  =  yes, sir
-KWRERS  =  {,?}yes, sir{,?}
-KWRERSZ  =  yes, sir
-KWRERL  =  I don't recall
-KWRERB  =  Yerba
-KWRERBG  =  Yerke
-KWRERPLS  =  why he did
-KWRERPLSZ  =  why he did not
-KWRERPB  =  yearn
-KWRERPBD  =  yearned
-KWRERPBS  =  yearns
-KWRERPBG  =  yearning
-KWREFS  =  why he was
-KWREFT  =  {^est}
-KWREFP  =  87
-KWREFPT  =  why he hadn't
-KWREFPTSDZ  =  87{l1}th{l0}
-KWREFPLS  =  why he hasn't
-KWREFPLT  =  E.U.
-KWREFPLTD  =  why he has
-KWREFRT  =  yester
-KWREFRG  =  why he went
-KWREFRPTSDZ  =  87{l1}th{l0}
-KWREU  =  I didn't
-KWREUZ  =  I didn't see
-KWREUD  =  yes, I did
-KWREUS  =  I didn't say
-KWREUT  =  I didn't tell
-KWREUTD  =  edited
-KWREUTS  =  edits
-KWREUG  =  I didn't go
-KWREUGS  =  edition
-KWREUGSZ  =  editions
-KWREUGT  =  I didn't get
-KWREUGTD  =  I didn't get
-KWREULD  =  why I would
-KWREULT  =  critical
-KWREULGT  =  I didn't think
-KWREUBZ  =  I didn't receive
-KWREUBG  =  86
-KWREUBGT  =  city manager
-KWREUBGTSDZ  =  86{l1}th{l0}
-KWREUBL  =  I didn't believe
-KWREUBLS  =  I didn't believe so
-KWREUP  =  Yip
-KWREUPS  =  yips
-KWREUPT  =  I didn't want
-KWREUPG  =  I didn't think
-KWREUPGS  =  I didn't ask
-KWREUPL  =  I didn't mean
-KWREUPLT  =  equipment
-KWREUPLTD  =  equipment
-KWREUPB  =  I didn't know
-KWREUPBD  =  I didn't understand
-KWREUPBDZ  =  I didn't understand
-KWREUPBG  =  I didn't think
-KWREUPBGS  =  I didn't think so
-KWREUPBGT  =  conflict of interest
-KWREUPBLG  =  I didn't come
-KWREUR  =  I didn't remember
-KWREURD  =  83{l1}rd{l0}
-KWREURS  =  81st
-KWREURT  =  editor
-KWREURTS  =  editors
-KWREURL  =  I didn't recall
-KWREURLZ  =  I didn't realize
-KWREURBG  =  I didn't work
-KWREURBGZ  =  I didn't recognize
-KWREURPLS  =  why I did
-KWREURPBLGS  =  I didn't do
-KWREURPBLGSZ  =  why don't
-KWREUF  =  I didn't have
-KWREUFD  =  85
-KWREUFS  =  why I was
-KWREUFTDZ  =  85{l1}th{l0}
-KWREUFTSD  =  85{l1}th{l0}
-KWREUFTSDZ  =  85{l1}th{l0}
-KWREUFL  =  I didn't feel
-KWREUFP  =  I didn't have
-KWREUFPT  =  why I hadn't
-KWREUFPL  =  I didn't feel
-KWREUFPBD  =  I didn't find
-KWREUFR  =  85
-KWREUFRTSDZ  =  85{l1}th{l0}
-KWREUFRB  =  I didn't need
-KWREUFRBT  =  I didn't need to
-KWR*  =  why
-KWR*D  =  why did you
-KWR*S  =  why is the
-KWR*T  =  why the
-KWR*TD  =  YTD
-KWR*L  =  y'all
-KWR*LD  =  why would
-KWR*LTD  =  why wouldn't
-KWR*LGD  =  ideologic
-KWR*BGT  =  why can't
-KWR*P  =  European
-KWR*PZ  =  Europe's
-KWR*PS  =  Europeans
-KWR*PL  =  Yemeni
-KWR*PLS  =  why must
-KWR*PB  =  European Union
-KWR*PBGDZ  =  synchronizing
-KWR*RT  =  why there
-KWR*RBT  =  why there was
-KWR*RP  =  European Union
-KWR*RPT  =  why weren't
-KWR*RPLS  =  why didn't
-KWR*RPBLGS  =  why don't
-KWR*RPBLGSZ  =  why doesn't
-KWR*FP  =  your question
-KWR*FPS  =  your question is
-KWR*FPLT  =  {&Y.}
-KWR*U  =  why you
-KWR*UD  =  why did you
-KWR*US  =  I couldn't say
-KWR*UT  =  I couldn't tell you
-KWR*UGD  =  why you got
-KWR*UL  =  yule
-KWR*ULD  =  why you would
-KWR*UBG  =  Yukon
-KWR*UBGT  =  I couldn't
-KWR*UBL  =  why you believe
-KWR*UBLG  =  why you cannot
-KWR*UP  =  {^up}
-KWR*UPD  =  up-to-date
-KWR*UPT  =  up-to-date
-KWR*UPTD  =  why you wanted
-KWR*UPB  =  Yun
-KWR*UPBG  =  why you think
-KWR*UPBLG  =  I couldn't just
-KWR*UR  =  euro
-KWR*URZ  =  euros
-KWR*URS  =  euros
-KWR*URT  =  upright
-KWR*URL  =  I couldn't really
-KWR*URP  =  European Union
-KWR*URPZ  =  European Union
-KWR*URPS  =  European Union's
-KWR*URPLS  =  why you didn't
-KWR*UF  =  I couldn't have
-KWR*UFPLT  =  EU
-KWR*UFRT  =  University of{-|}
-KWR*E  =  why he
-KWR*ED  =  yesterday
-KWR*ET  =  yet
-KWR*ETD  =  yet
-KWR*ETS  =  , yes, it is
-KWR*EG  =  Egypt
-KWR*EGS  =  Egyptian
-KWR*EGSZ  =  Egyptians
-KWR*EL  =  yellow
-KWR*ELS  =  yellows
-KWR*EBLS  =  why he believes
-KWR*EP  =  Yelp
-KWR*EPL  =  yes, ma'am
-KWR*EPB  =  yen
-KWR*ER  =  E.R.
-KWR*EFPLT  =  E.U.
-KWR*EFR  =  everywhere
-KWR*EFRTD  =  every time
-KWR*EFRB  =  everywhere
-KWR*EFRP  =  everywhere
-KWR*EU  =  why I
-KWR*EUD  =  yes, I do
-KWR*EUT  =  edit
-KWR*EUTD  =  edited
-KWR*EUTS  =  edits
-KWR*EUTSZ  =  edits
-KWR*EUGT  =  editing
-KWR*EULD  =  why I would
-KWR*EUP  =  European Union
-KWR*EUPL  =  yes, I am
-KWR*EUPB  =  Yin
-KWR*EUPBG  =  Ying
-KWR*EUR  =  I didn't remember
-KWR*EURS  =  {,?}yes, sir{,?}
-KWR*EURT  =  editor
-KWR*EURTS  =  editors
-KWR*EURL  =  I didn't really
-KWR*EURLZ  =  I didn't realize
-KWR*EURBGT  =  I didn't talk to
-KWR*EURP  =  European Union
-KWR*EURPS  =  European Union's
-KWR*EURPBLGSZ  =  why don't
-KWR*EUF  =  85
-KWR*EUFSZ  =  I didn't have any
-KWR*EUFTD  =  85{l1}th{l0}
-KWR*EUFTDZ  =  85{l1}th{l0}
-KWR*EUFTSDZ  =  85{l1}th{l0}
-KWR*EUFG  =  I didn't give
-KWR*EUFPB  =  I didn't have an
-KWR*EUFRB  =  I didn't observe
-KWR*EUFRP  =  I didn't review
-KWRO  =  yo
-KWROD  =  idea
-KWROB  =  job
-KWROBD  =  beyond
-KWROBGS  =  Oxycontin
-KWROPD  =  beyond
-KWROPT  =  yopt
-KWROPL  =  yom
-KWROPB  =  yon
-KWROPBD  =  beyond
-KWROPBTD  =  beyond the
-KWROPBG  =  young
-KWROPBGS  =  Oxycontin
-KWROPBLD  =  beyond
-KWROR  =  yore
-KWRORT  =  editor
-KWRORTS  =  editors
-KWRORTSZ  =  editors
-KWRORL  =  I don't recall
-KWRORLT  =  editorial
-KWRORLTS  =  editorials
-KWRORB  =  Josh
-KWRORBG  =  York
-KWRORBGS  =  I don't
-KWRORPB  =  yes or no
-KWRORPBD  =  yonder
-KWROFBG  =  idiopathic
-KWROFRG  =  Yonk
-KWROFRBG  =  Yonk
-KWROUD  =  outside
-KWROUDZ  =  outside
-KWROUT  =  {^out}
-KWROUTDZ  =  youth
-KWROUTS  =  {^outs}
-KWROUTSZ  =  {^outs}
-KWROUTSDZ  =  youth
-KWROUL  =  yowl
-KWROULDZ  =  outside
-KWROULT  =  outlook
-KWROULTS  =  {^outs}
-KWROUBD  =  ultrasound
-KWROUPZ  =  outside the scope
-KWROUPDZ  =  outside the scope
-KWROUPT  =  output
-KWROUPTS  =  outputs
-KWROUPBD  =  ultrasound
-KWROUPBDZ  =  ultrasounds
-KWROUPBT  =  Yount
-KWROUPBTDZ  =  United States
-KWROUPBTS  =  Younts
-KWROUPBG  =  young
-KWROUR  =  you're
-KWROURDZ  =  outsider
-KWROURS  =  yourself
-KWROURPBT  =  downturn
-KWROURPBTS  =  downturns
-KWROURPBG  =  younger
-KWROUFT  =  outfit
-KWROUFRD  =  outsourced
-KWROUFRG  =  outsourcing
-KWROE  =  I don't
-KWROEZ  =  I don't see
-KWROED  =  yesterday
-KWROEDZ  =  I don't see
-KWROES  =  I don't say
-KWROET  =  I don't tell
-KWROETSZ  =  I don't see
-KWROEG  =  I don't go
-KWROEGS  =  corrosion
-KWROEGT  =  I don't get
-KWROEL  =  Yolo
-KWROELT  =  control
-KWROELTD  =  control
-KWROEB  =  I don't know
-KWROEBZ  =  I don't receive
-KWROEBD  =  I don't understand
-KWROEBG  =  yoke
-KWROEBGS  =  I don't think so
-KWROEBL  =  I don't believe
-KWROEBLZ  =  I don't believe so
-KWROEBLS  =  I don't believe so
-KWROEBLSZ  =  I don't believe so
-KWROEBLT  =  I don't believe
-KWROEBLTS  =  I don't believe so
-KWROEBLG  =  I don't believe
-KWROEBLGS  =  I don't believe so
-KWROEBLGSZ  =  I don't believe so
-KWROEP  =  I don't know
-KWROEPZ  =  beyond the scope
-KWROEPD  =  beyond the scope
-KWROEPDZ  =  beyond the scope
-KWROEPT  =  I don't want
-KWROEPTD  =  I don't want to
-KWROEPTS  =  I don't want to say
-KWROEPG  =  I don't think
-KWROEPGS  =  I don't think so
-KWROEPL  =  I don't mean
-KWROEPLT  =  I don't want
-KWROEPLTS  =  Yosemite
-KWROEPLTSZ  =  Yosemite
-KWROEPLG  =  I don't think
-KWROEPB  =  I don't know
-KWROEPBD  =  I don't understand
-KWROEPBDZ  =  I don't understand
-KWROEPBT  =  I don't know the
-KWROEPBG  =  I don't think
-KWROEPBGS  =  I don't think so
-KWROEPBGSZ  =  I don't think so
-KWROEPBGTSDZ  =  I don't think so
-KWROEPBL  =  I don't believe
-KWROEPBLS  =  I don't believe so
-KWROEPBLG  =  I don't come
-KWROEPBLGS  =  I don't think so
-KWROEPBLGTS  =  I don't know that
-KWROER  =  I don't remember
-KWROERS  =  years
-KWROERT  =  I don't remember the
-KWROERTSDZ  =  84{l1}th{l0}
-KWROERG  =  I don't agree
-KWROERGS  =  years
-KWROERGT  =  yogurt
-KWROERGTS  =  yogurts
-KWROERL  =  I don't recall
-KWROERLZ  =  I don't realize
-KWROERLD  =  {^}-year-old
-KWROERLT  =  I don't recall the
-KWROERLGTS  =  I don't remember that
-KWROERB  =  Yosh
-KWROERBG  =  I don't recollect
-KWROERBGZ  =  I don't recognize
-KWROERBGT  =  I don't recollect
-KWROERBGTD  =  I don't recollect
-KWROERBGTS  =  I don't recollect
-KWROERBL  =  I don't recall
-KWROERBLS  =  I don't believe so
-KWROERP  =  I don't remember
-KWROERPL  =  I don't recall
-KWROERPB  =  I don't know
-KWROERPBD  =  I don't understand
-KWROERPBT  =  I don't want to be
-KWROERPBGS  =  I don't think so
-KWROERPBL  =  I don't know
-KWROERPBLGS  =  I don't do
-KWROEF  =  I don't have
-KWROEFD  =  I don't find
-KWROEFSZ  =  I don't have any
-KWROEFT  =  Yost
-KWROEFL  =  I don't feel
-KWROEFB  =  I don't need
-KWROEFP  =  I don't have
-KWROEFPT  =  I don't want
-KWROEFPB  =  I don't know
-KWROEFPBD  =  I don't find
-KWROEFR  =  I don't ever
-KWROEFRL  =  I don't feel
-KWROEFRB  =  I don't need
-KWROEFRBT  =  I don't need to
-KWROEFRPB  =  I don't know
-KWROEU  =  I don't
-KWROEUBGS  =  yoicks
-KWROEUP  =  {up-}
-KWROEUPT  =  I don't want
-KWROEUPLT  =  I don't mean
-KWROEUPB  =  I don't know
-KWROEUPBG  =  I don't think
-KWROEUPBGS  =  I don't think so
-KWROEUPBL  =  I don't know
-KWROEUR  =  I don't remember
-KWROEURL  =  I don't recall
-KWROEURB  =  I don't remember
-KWROEUF  =  {^}-off
-KWROEUFBG  =  idiopathic
-KWROEUFRB  =  of your
-KWRO*  =  Yo
-KWRO*P  =  on your
-KWRO*PB  =  on your
-KWRO*PBZ  =  {^}-on-{^}
-KWRO*PBT  =  confront
-KWRO*PBTD  =  contronted
-KWRO*PBG  =  confronting
-KWRO*PBGS  =  confrontation
-KWRO*PBGSZ  =  confrontations
-KWRO*R  =  yore
-KWRO*RT  =  editor
-KWRO*RTS  =  editors
-KWRO*RLT  =  editorial
-KWRO*RPB  =  yes or a no
-KWRO*F  =  yov
-KWRO*UD  =  outdoor
-KWRO*UDZ  =  outdoors
-KWRO*UT  =  {^-out}
-KWRO*UTD  =  outdoor
-KWRO*ULT  =  Outlook
-KWRO*UPBG  =  Young
-KWRO*UR  =  you're a
-KWRO*URP  =  European Union
-KWRO*E  =  {^io}
-KWRO*ETD  =  I don't want to do
-KWRO*EG  =  yoga
-KWRO*EL  =  Yolo
-KWRO*EP  =  I don't expect
-KWRO*EPG  =  I don't keep
-KWRO*EPLTS  =  Yosemite
-KWRO*EPB  =  I don't know
-KWRO*EPBGS  =  confrontational
-KWRO*EPBLD  =  Yolanda
-KWRO*EPBLS  =  I don't believe so
-KWRO*ER  =  84
-KWRO*ERL  =  I don't really
-KWRO*ERB  =  yosh
-KWRO*ERPB  =  I don't know
-KWRO*ERPBSDZ  =  I don't understand
-KWRO*EFSZ  =  I don't have any
-KWRO*EFTS  =  Yovits
-KWRO*EFG  =  I don't give
-KWRO*EFP  =  I don't have
-KWRO*EFPT  =  I don't want to have
-KWRO*EFPB  =  I don't have an
-KWRO*EFR  =  {^over}
-KWRO*EFRS  =  {^overs}
-KWRO*EFRT  =  overt
-KWRO*EFRLT  =  overtly
-KWRO*EFRBD  =  overbroad
-KWRO*EFRP  =  I don't review
-KWRO*EU  =  Yoo
-KWRO*EUR  =  I don't remember
-KWRO*EURBG  =  Iraqi
-KWRA  =  I can't
-KWRAZ  =  I can't see
-KWRAD  =  idea
-KWRAS  =  I can't say
-KWRASZ  =  I can't say
-KWRAT  =  I can't tell
-KWRATD  =  I can't tell
-KWRAG  =  I can't go
-KWRAGT  =  I can't get
-KWRALT  =  I can't tell
-KWRALTD  =  I can't tell
-KWRAB  =  I can't be
-KWRABZ  =  I can't be describe
-KWRABG  =  yak
-KWRABGT  =  contract
-KWRABL  =  I can't believe
-KWRAP  =  Yapp
-KWRAPD  =  yapped
-KWRAPS  =  I can't speak
-KWRAPG  =  I can't think
-KWRAPL  =  yam
-KWRAPLTS  =  analytics
-KWRAPB  =  Yan
-KWRAPBZ  =  analyze
-KWRAPBD  =  I can't understand
-KWRAPBS  =  I can't answer
-KWRAPBSZ  =  I can't answer
-KWRAPBT  =  analyst
-KWRAPBTS  =  analysts
-KWRAPBTSZ  =  implants
-KWRAPBG  =  I can't think
-KWRAPBGS  =  I can't think
-KWRAPBL  =  analyze
-KWRAPBLZ  =  analyze
-KWRAPBLD  =  analyzed
-KWRAPBLDZ  =  analyzing
-KWRAPBLS  =  analyzes
-KWRAPBLSZ  =  analyzes
-KWRAPBLT  =  analytic
-KWRAPBLTS  =  analytics
-KWRAPBLG  =  analyzing
-KWRAPBLGS  =  analyzing
-KWRAR  =  I can't remember
-KWRARD  =  yard
-KWRARDZ  =  yards
-KWRART  =  yard
-KWRARG  =  I can't agree
-KWRARL  =  I can't recall
-KWRARLD  =  yard
-KWRARLT  =  I can't recall
-KWRARB  =  crash
-KWRARBD  =  yard
-KWRARBG  =  I can't recollect
-KWRARBGZ  =  I can't recognize
-KWRARBGT  =  I can't recollect
-KWRARBL  =  I can't recall
-KWRARBLG  =  yardage
-KWRARPL  =  I can't recall
-KWRARPB  =  yarn
-KWRARPBL  =  analyzer
-KWRARPBLD  =  {^-YARD}LINE
-KWRARPBLG  =  yardage
-KWRARPBLGS  =  I can't do
-KWRARPBLGTS  =  I can't do
-KWRAF  =  I can't have
-KWRAFS  =  why was
-KWRAFPBD  =  I can't find
-KWRAFRDZ  =  I can't take
-KWRAFRP  =  off-ramp
-KWRAU  =  yeah
-KWRAUS  =  yeah
-KWRAUT  =  yacht
-KWRAUTD  =  yacht
-KWRAUTS  =  yachts
-KWRAUL  =  {^all}
-KWRAULS  =  {^alls}
-KWRAULT  =  quality
-KWRAUP  =  yeah
-KWRAUPT  =  audiotape
-KWRAUPTS  =  audiotapes
-KWRAUPB  =  yawn
-KWRAUPBD  =  yawned
-KWRAUPBS  =  yawns
-KWRAUPBG  =  yawning
-KWRAUR  =  you're
-KWRAURD  =  yard
-KWRAURS  =  yourself
-KWRAUF  =  {^off}
-KWRAUFS  =  {^offs}
-KWRAUFL  =  qualify
-KWRAUFLD  =  qualified
-KWRAUFLS  =  qualifies
-KWRAE  =  83
-KWRAEZ  =  crazy
-KWRAET  =  yet
-KWRAEPBS  =  Yancey
-KWRAER  =  {^ary}
-KWRAERS  =  years
-KWRAERL  =  I can't recall
-KWRAEU  =  88
-KWRAEUZ  =  Yahoo
-KWRAEUD  =  I-80
-KWRAEUT  =  great
-KWRAEUTS  =  Yates
-KWRAEUTSZ  =  Yates
-KWRAEUTSDZ  =  88{l1}th{l0}
-KWRAEUL  =  Yale
-KWRAEULT  =  Italy
-KWRAEUBL  =  Libya
-KWRAEUPG  =  Yang
-KWRAEUPL  =  Yale
-KWRAEUPBT  =  I ain't
-KWRAEUPBG  =  Yang
-KWRAEUPBGD  =  yanked
-KWRAEUPBL  =  cranial
-KWRAEUR  =  yare
-KWRAEURG  =  Yeager
-KWRAEURPB  =  Yaron
-KWRAEUFRBGD  =  yanked
-KWRAEUFRPBG  =  Yank
-KWRAEUFRPBGD  =  yanked
-KWRAEUFRPBGDZ  =  yanking
-KWRAEUFRPBGS  =  yanks
-KWRA*  =  {^ia}
-KWRA*S  =  yas
-KWRA*T  =  I can't tell you
-KWRA*L  =  y'all
-KWRA*BG  =  {^}iac
-KWRA*BLT  =  I can't believe it
-KWRA*PB  =  {^}ian
-KWRA*PBD  =  Randy
-KWRA*PBS  =  {^ians}
-KWRA*PBT  =  analytic
-KWRA*PBTS  =  analytics
-KWRA*PBG  =  Yang
-KWRA*PBLT  =  analytical
-KWRA*PBLTS  =  analytics
-KWRA*PBLG  =  I can't just
-KWRA*R  =  I can't remember
-KWRA*RD  =  I can't read
-KWRA*RL  =  I can't really
-KWRA*RPL  =  I can't really
-KWRA*RPBLD  =  {^-YARD}LINE
-KWRA*FL  =  y'all
-KWRA*FR  =  I can't remember
-KWRA*FRPBGS  =  Yankees
-KWRA*U  =  yaw
-KWRA*UZ  =  yeah{,}
-KWRA*UD  =  yawed
-KWRA*UT  =  I can't tell you
-KWRA*UG  =  yawing
-KWRA*UL  =  all-{^}
-KWRA*UPB  =  Yuan
-KWRA*E  =  yea
-KWRA*EPBLT  =  analytically
-KWRA*EU  =  yay
-KWRA*EUT  =  I-80
-KWRA*EUL  =  ale
-KWRA*EULT  =  Italian
-KWRA*EULTS  =  Italians
-KWRA*EUBL  =  Libya
-KWRA*EUPBG  =  Yang
-KWRA*EUFRBG  =  Yankee
-KWRA*EUFRBGS  =  Yankees
-KWRA*EUFRPBG  =  Yankee
-KWRA*EUFRPBGS  =  Yankees
-KWRAO  =  82
-KWRAOZ  =  I do not see
-KWRAOD  =  idea
-KWRAOTSDZ  =  youth
-KWRAOB  =  Ayoob
-KWRAOBD  =  beyond
-KWRAOBL  =  I do not believe
-KWRAOBLS  =  I do not believe so
-KWRAOPB  =  I do not know
-KWRAOPBD  =  I do not understand
-KWRAOPBT  =  I do not
-KWRAOPBG  =  I do not think
-KWRAOPBGS  =  canyons
-KWRAOPBGT  =  conflict of interest
-KWRAOPBGTS  =  conflicts of interest
-KWRAOR  =  I do not remember
-KWRAORL  =  I do not recall
-KWRAORBGZ  =  I can't recognize
-KWRAORBGT  =  I do not recollect
-KWRAORBL  =  I do not recall
-KWRAORPB  =  yes or a no
-KWRAOF  =  I do not have
-KWRAOFPBD  =  I do not find
-KWRAOU  =  Yu
-KWRAOUD  =  you'd
-KWRAOUDZ  =  outside
-KWRAOUTD  =  youth
-KWRAOUTDZ  =  youth
-KWRAOUTSZ  =  youth
-KWRAOUTSD  =  youth
-KWRAOUTSDZ  =  youth
-KWRAOUL  =  you'll
-KWRAOULZ  =  you'll see
-KWRAOULD  =  you'd
-KWRAOULTSDZ  =  youth
-KWRAOULG  =  you'll
-KWRAOUB  =  Yuba
-KWRAOUBZ  =  Yuba City
-KWRAOUBT  =  YouTube
-KWRAOUBG  =  Yukon
-KWRAOUPT  =  why do you want
-KWRAOUPL  =  you'll
-KWRAOUPB  =  union
-KWRAOUPBD  =  ultrasound
-KWRAOUPBDZ  =  United States
-KWRAOUPBT  =  unite
-KWRAOUPBTD  =  united
-KWRAOUPBTS  =  unites
-KWRAOUPBTSZ  =  units
-KWRAOUR  =  you're
-KWRAOURS  =  yourself
-KWRAOURSZ  =  yourselves
-KWRAOURL  =  you're
-KWRAOURLGTS  =  urologists
-KWRAOURB  =  you're
-KWRAOURBS  =  your job
-KWRAOURBG  =  Eureka
-KWRAOURP  =  you're
-KWRAOURPT  =  your report
-KWRAOURPL  =  you're
-KWRAOURPBT  =  you're not
-KWRAOUFL  =  youthful
-KWRAOUFR  =  you're
-KWRAOE  =  {^y}
-KWRAOED  =  yes, he did
-KWRAOEDZ  =  yes, she did
-KWRAOES  =  {^ies}
-KWRAOEL  =  {^y}
-KWRAOELD  =  yield
-KWRAOELDZ  =  yields
-KWRAOELTD  =  yielded
-KWRAOELTDZ  =  yields
-KWRAOELGD  =  yielding
-KWRAOEPLDZ  =  yields
-KWRAOEPB  =  I don't know
-KWRAOEPBG  =  I don't think
-KWRAOEPBGS  =  I don't think
-KWRAOER  =  year
-KWRAOERZ  =  year's
-KWRAOERDZ  =  years old
-KWRAOERS  =  years
-KWRAOERSZ  =  years
-KWRAOERTS  =  years
-KWRAOERG  =  year ago
-KWRAOERGZ  =  years ago
-KWRAOERGS  =  years ago
-KWRAOERL  =  yearly
-KWRAOERLD  =  {^}-year-old
-KWRAOERLDZ  =  years old
-KWRAOERLS  =  years
-KWRAOERLTDZ  =  years old
-KWRAOERLG  =  yearling
-KWRAOERLGS  =  yearlings
-KWRAOERB  =  yearbook
-KWRAOERBD  =  yearbook
-KWRAOERBS  =  yearbooks
-KWRAOERBSZ  =  years
-KWRAOERP  =  year
-KWRAOERPLDZ  =  {^}-year-olds
-KWRAOEF  =  I don't have
-KWRAOEFT  =  yeast
-KWRAOEFTD  =  yeast
-KWRAOEFRS  =  years
-KWRAOEU  =  80
-KWRAOEUZ  =  80{l1}s{l0}
-KWRAOEUD  =  80
-KWRAOEUT  =  {^ite}
-KWRAOEUTZ  =  80{l1}s{l0}
-KWRAOEUTD  =  quite
-KWRAOEUTS  =  {^ites}
-KWRAOEUTSDZ  =  80{l1}th{l0}
-KWRAOEUL  =  isle
-KWRAOEUB  =  of your
-KWRAOEUBGS  =  yikes
-KWRAOEUP  =  80
-KWRAOEUPB  =  89
-KWRAOEUPBTSDZ  =  89{l1}th{l0}
-KWRAOEUPBGD  =  United Kingdom
-KWRAOEUR  =  year
-KWRAOEURS  =  years
-KWRAOEURGS  =  years
-KWRAOEURBG  =  Iraqi
-KWRAOEURBGS  =  Iraqis
-KWRAOEUF  =  85
-KWRAOEUFB  =  of your
-KWRAOEUFBS  =  of yours
-KWRAOEUFR  =  of your
-KWRAOEUFRGS  =  of yours
-KWRAOEUFRB  =  of your
-KWRAOEUFRBS  =  of yours
-KWRAOEUFRBG  =  of your
-KWRAO*  =  Yoo
-KWRAO*PB  =  I do not
-KWRAO*PBG  =  canyon
-KWRAO*R  =  I do not remember
-KWRAO*FPLT  =  improvement
-KWRAO*U  =  you're
-KWRAO*UD  =  you'd
-KWRAO*UTSDZ  =  youths
-KWRAO*UL  =  Ewell
-KWRAO*ULZ  =  you'll see
-KWRAO*UB  =  Yuba
-KWRAO*UBZ  =  Yuba City
-KWRAO*UBG  =  Yukon
-KWRAO*UPB  =  Yuen
-KWRAO*UPBS  =  Yuens
-KWRAO*UPBG  =  why do you think
-KWRAO*UR  =  you're
-KWRAO*URT  =  you're the
-KWRAO*URBG  =  Eureka
-KWRAO*URP  =  European Union
-KWRAO*UF  =  you've
-KWRAO*UFB  =  you've been
-KWRAO*UFR  =  you've
-KWRAO*E  =  {^ee}
-KWRAO*ES  =  {,?}yes
-KWRAO*EP  =  European
-KWRAO*EPBG  =  idiosyncrasy
-KWRAO*EPBGS  =  idiosyncrasies
-KWRAO*EPBGT  =  idiosyncratic
-KWRAO*EPBLGT  =  idiosyncratic
-KWRAO*ER  =  Erie
-KWRAO*ERS  =  year's
-KWRAO*ERGS  =  years ago
-KWRAO*ERLDZ  =  {^}-year-olds
-KWRAO*EU  =  Yi
-KWRAO*EUZ  =  '80{l1}s{l0}
-KWRAO*EUP  =  European Union
-KWRAO*EUPBD  =  Indy
-KWRAO*EUR  =  you're
-KWRAO*EURBG  =  Iraqi
-KWRAO*EURBGS  =  Iraqis
-KWRAO*EURP  =  European Union
-KWRAO*EURPS  =  European Union's
-KWRAO*EURPB  =  Iranian
-KWRAO*EURPBS  =  Iranians
-KWRAO*EURPBSZ  =  Iranians
-KWRAO*EUF  =  I-5
-KWRAO*EUFRB  =  of your
-KWRAO*EUFRPBS  =  Iranians
-KWH  =  which
-KWH-S  =  which is
-KWHU  =  when you
-KWHULD  =  when you would
-KWHEU  =  when I
-KWHEURPLS  =  when I did
-KWHEUFRG  =  when I went
-KWHO  =  who
-KWHOS  =  who is
-KWHOT  =  who the
-KWHA  =  what
-KWHAS  =  what is
-KWHAT  =  what the
-KWHATS  =  what's
-KWHAPD  =  what happened
-KWHAFS  =  what was
-KWHAUR  =  you're
-KWHAEU  =  what I
-KWHAEUPGSD  =  changed
-KWHAEUPBGS  =  changes
-KWHA*FS  =  what was the
-KWHR  =  why
-KWHR-R  =  whether
-KWHRURS  =  yourself
-KWHRUFL  =  utilize
-KWHRET  =  yet
-KWHREPLTD  =  implemented
-KWHREUPBGT  =  conflict of interest
-KWHREUF  =  illicit
-KWHR*EUS  =  liquidators
-KWHROBG  =  clock
-KWHRORPB  =  whether or not
-KWHROFRPBLGTS  =  improvements
-KWHROE  =  employee
-KWHROES  =  employees
-KWHROEBL  =  I don't believe
-KWHROEP  =  I don't know
-KWHROEPB  =  I don't know
-KWHROEPBG  =  I don't think
-KWHROER  =  84
-KWHROERS  =  employers
-KWHROEF  =  I don't have
-KWHROEUD  =  employed
-KWHROEUPLT  =  employment
-KWHROEUR  =  I don't remember
-KWHRO*ER  =  I don't remember
-KWHRA  =  what
-KWHRAPBT  =  implant
-KWHRAPBTD  =  implant
-KWHRAPBTS  =  implants
-KWHRAPBTSZ  =  implants
-KWHRAPBLTSZ  =  implants
-KWHRAEUPLG  =  claiming
-KWHRAO  =  82
-KWHRAOUR  =  you're
-KWHRAOURP  =  you're
-KWHRAOER  =  year
-KWHRAO*UR  =  you're
-KP  =  and
-KP-D  =  examined
-KP-S  =  exams
-KP-SZ  =  examinations
-KP-G  =  examining
-KP-GS  =  examination
-KP-GSZ  =  examinations
-KP-L  =  Exel
-KP-LD  =  examined
-KP-LS  =  xlxs
-KP-LGS  =  examination
-KP-BGSZ  =  examinations
-KP-BGT  =  exact
-KP-BLT  =  capability
-KP-P  =  XP
-KP-PGS  =  expectation
-KP-PGSZ  =  expectations
-KP-PBS  =  expectancy
-KP-PBGS  =  condition
-KP-R  =  CPR
-KP-RD  =  considered
-KP-RGS  =  consideration
-KP-RBGS  =  {^}x{^}
-KP-FL  =  capsule
-KP-FLS  =  capsules
-KP-FLT  =  encapsulate
-KP-FLTD  =  encapsulated
-KP-FLTS  =  encapsulates
-KP-FP  =  expenditure
-KP-FPS  =  expenditures
-KP-FPLD  =  {&x}
-KP-FPLT  =  {&X}
-KP-FRGSZ  =  conversations
-KP-FRL  =  capsular
-KP-FRBGS  =  exacerbation
-KPU  =  CPU
-KPULS  =  compulsory
-KPULGS  =  compulsion
-KPUPT  =  exculpatory
-KPUPL  =  Exhibit No.
-KPUR  =  capture
-KPURD  =  captured
-KPURG  =  capturing
-KPURB  =  exurb
-KPURPLT  =  currently
-KPUFD  =  confused
-KPUFBL  =  combustible
-KPUFBLS  =  combustibles
-KPE  =  competent
-KPES  =  excess
-KPESZ  =  excesses
-KPEGS  =  competition
-KPEGSZ  =  competitions
-KPEL  =  excel
-KPELD  =  excelled
-KPELS  =  excels
-KPELG  =  excelling
-KPEBSZ  =  compensation
-KPEBG  =  exec
-KPEBGD  =  checked
-KPEBGS  =  execs
-KPEBGT  =  execute
-KPEBGTD  =  executed
-KPEBGTS  =  executes
-KPEPT  =  except
-KPEPTD  =  excepted
-KPEPTS  =  excepts
-KPEPGS  =  exception
-KPEPGSZ  =  exceptions
-KPEPGT  =  excepting
-KPEPGTS  =  exception
-KPEPLS  =  chemicals
-KPEPLT  =  except
-KPEPLTD  =  except
-KPEPLGS  =  exemption
-KPEPB  =  company
-KPEPBDZ  =  depends
-KPEPBS  =  competence
-KPEPBSZ  =  competencies
-KPEPBT  =  compensate
-KPEPBTD  =  compensated
-KPEPBTS  =  compensates
-KPEPBTSDZ  =  compensates
-KPEPBGS  =  compensation
-KPEPBGSZ  =  compensations
-KPEPBGT  =  compensating
-KPEPBGTD  =  compensating
-KPEPBLT  =  competently
-KPEPBLGS  =  compensation
-KPEPBLGSZ  =  exigency
-KPER  =  examiner
-KPERZ  =  exercise
-KPERD  =  exercised
-KPERDZ  =  exercised
-KPERS  =  examiners
-KPERSZ  =  exercises
-KPERT  =  exert
-KPERTD  =  exerted
-KPERTS  =  exerts
-KPERGZ  =  exercising
-KPERGS  =  exertion
-KPERGT  =  exerting
-KPERBZ  =  exercise
-KPERPT  =  excerpt
-KPERPTD  =  excerpted
-KPERPTS  =  excerpts
-KPERPGS  =  excerption
-KPERPLTS  =  excerpts
-KPERPLTSZ  =  excerpts
-KPEF  =  excessive
-KPEFZ  =  competitiveness
-KPEFSZ  =  competitiveness
-KPEFL  =  excessively
-KPEFPT  =  except
-KPEFPGS  =  exception
-KPEFPGSZ  =  exemptions
-KPEFPLSZ  =  exemptions
-KPEFPLT  =  except
-KPEFPLTD  =  exempted
-KPEFPLGSZ  =  exemptions
-KPEFPLGTSZ  =  exemptions
-KPEFRPS  =  exemption
-KPEFRPT  =  exempt
-KPEFRPGS  =  exemption
-KPEFRPGSZ  =  exemptions
-KPEFRPL  =  exempt
-KPEFRPLS  =  exemption
-KPEFRPLT  =  exempt
-KPEFRPLTD  =  exempted
-KPEFRPLGS  =  exemption
-KPEFRPLGSZ  =  exemptions
-KPEFRPBGS  =  exemption
-KPEFRPBGSZ  =  exemptions
-KPEUDZ  =  kids
-KPEUT  =  exit
-KPEUTD  =  exited
-KPEUTS  =  exits
-KPEUTSZ  =  exits
-KPEUGS  =  excision
-KPEUGSZ  =  excision
-KPEUGT  =  exiting
-KPEUGTS  =  exiting
-KPEULGS  =  compilation
-KPEULGSZ  =  compilations
-KPEUBTD  =  exhibited
-KPEUBTS  =  exhibits
-KPEUBGS  =  exhibition
-KPEUBLTD  =  exhibited
-KPEUPD  =  examined
-KPEUPS  =  existence
-KPEUPT  =  excipient
-KPEUPTS  =  excipients
-KPEUPB  =  examine
-KPEUPBD  =  examined
-KPEUPBDZ  =  examined
-KPEUPBS  =  examines
-KPEUPBTD  =  examined
-KPEUPBGS  =  existential
-KPEUPBL  =  examine
-KPEUPBLD  =  examined
-KPEUPBLGZ  =  exigence
-KPEUPBLGS  =  exigency
-KPEUPBLGSZ  =  exigencies
-KPEUPBLGT  =  exigent
-KPEURZ  =  conspiracy
-KPEURTS  =  conspirators
-KPEUFD  =  existed
-KPEUFS  =  exists
-KPEUFT  =  exist
-KPEUFTD  =  existed
-KPEUFTS  =  exists
-KPEUFTSZ  =  exists
-KPEUFGT  =  existing
-KPEUFGTS  =  existing
-KPEUFLT  =  exist
-KPEUFLTD  =  existed
-KPEUFLGT  =  existing
-KPEUFBS  =  existence
-KPEUFBT  =  exist
-KPEUFBGT  =  existing
-KPEUFP  =  capitulate
-KPEUFPD  =  capitulated
-KPEUFPT  =  exist
-KPEUFPGT  =  existing
-KPEUFPBS  =  existence
-KPEUFPBT  =  existent
-KPEUFPBTD  =  existent
-KPEUFPBGS  =  existential
-KPEUFRTS  =  exists
-KPEUFRBS  =  existence
-KPEUFRPBS  =  existence
-KP*  =  exam
-KP*Z  =  XYZ
-KP*S  =  exams
-KP*G  =  examining
-KP*GS  =  examination
-KP*GSZ  =  examinations
-KP*PTD  =  encapsulated
-KP*FPGSZ  =  expectations
-KP*FPLT  =  {&X.}
-KP*FRGSZ  =  conversations
-KP*U  =  Xu
-KP*ULS  =  compulsorily
-KP*UFLZ  =  compulsive
-KP*E  =  incompetent
-KP*EL  =  Excel
-KP*ELS  =  Excels
-KP*EBGS  =  context
-KP*EPT  =  excepting
-KP*EPGS  =  exceptional
-KP*EPBS  =  incompetence
-KP*EPBSZ  =  competencies
-KP*ERZ  =  exercise
-KP*ERGS  =  exertional
-KP*ERBGT  =  executor
-KP*EF  =  competitive
-KP*EFZ  =  competitiveness
-KP*EFDZ  =  competitiveness
-KP*EFL  =  competitively
-KP*EFPGS  =  exceptional
-KP*EFRPL  =  exemplar
-KP*EFRPLS  =  exemplars
-KP*EFRPLTD  =  exempted
-KP*EU  =  Xi
-KP*EUBG  =  pickup truck
-KP*EUPB  =  examine
-KP*EUPBLGZ  =  exigency
-KP*EUF  =  competitive
-KP*EUFT  =  exist
-KP*EUFPBS  =  existence
-KPO  =  exo
-KPOS  =  exos
-KPOT  =  exotic
-KPOTS  =  exotics
-KPOGS  =  composition
-KPOGSZ  =  compositions
-KPOPGS  =  composition
-KPOPLS  =  comes
-KPOPLG  =  coming
-KPOPB  =  Exxon
-KPOPBS  =  exons
-KPOPBGS  =  exoneration
-KPOPBLG  =  exog
-KPOR  =  competitor
-KPORZ  =  competitor's
-KPORS  =  competitors
-KPORT  =  comport
-KPORTD  =  comported
-KPORTS  =  conspirators
-KPORBT  =  exorbitant
-KPORPLT  =  comportment
-KPOF  =  could have
-KPOFT  =  composite
-KPOFTD  =  composited
-KPOFTS  =  composites
-KPOFRPL  =  comp
-KPOUT  =  could you tell
-KPOUBD  =  compound
-KPOUPBD  =  compound
-KPOUPBDZ  =  compounds
-KPOUPBTD  =  compounded
-KPOUPBTDZ  =  compounds
-KPOUPBTSDZ  =  compounds
-KPOUPBGD  =  compounding
-KPOUPBL  =  counsel
-KPOUPBLD  =  compound
-KPOURT  =  computer
-KPOURPBT  =  counter
-KPOED  =  code
-KPOES  =  compose
-KPOESZ  =  composes
-KPOEGS  =  composition
-KPOEGSZ  =  compositions
-KPOELS  =  policy
-KPOEBTS  =  components
-KPOEP  =  copy
-KPOEPS  =  copies
-KPOEPL  =  exome
-KPOEPB  =  company
-KPOEPBT  =  component
-KPOEPBTD  =  component
-KPOEPBTS  =  components
-KPOEPBTSZ  =  components
-KPOEPBTSDZ  =  components
-KPOEPBGS  =  exponential
-KPOEPBL  =  axonal
-KPOEPBLTS  =  components
-KPOERS  =  composer
-KPOERGS  =  deposition
-KPOERB  =  composure
-KPOEFD  =  composed
-KPOEFT  =  compost
-KPOEFTD  =  composted
-KPOEFG  =  composing
-KPOEFGT  =  composting
-KPOEFPD  =  coached
-KPOEFPBT  =  coherent
-KPOEFR  =  composer
-KPOEUPBT  =  county
-KPOEURPBTS  =  countries
-KPO*BGS  =  Xbox
-KPO*RZ  =  competitors'
-KPO*RT  =  exhort
-KPO*RTD  =  exhorted
-KPO*FPB  =  configuration
-KPO*FRL  =  cover
-KPO*URTS  =  courtesy
-KPO*ERPB  =  company
-KPA  =  CPA
-KPAGS  =  compassion
-KPALT  =  exalt
-KPALGS  =  exhalation
-KPABGS  =  compaction
-KPABGT  =  exact
-KPABGTD  =  exacted
-KPABL  =  compatible
-KPABLT  =  compatibility
-KPABLTS  =  capabilities
-KPABLGT  =  exact
-KPAPD  =  command
-KPAPL  =  exam
-KPAPLS  =  exams
-KPAPLT  =  capital
-KPAPB  =  company
-KPAPBS  =  companions
-KPAPBT  =  can't
-KPAPBLT  =  exaggerate
-KPAPBLTD  =  exaggerated
-KPAPBLGD  =  exaggerated
-KPAPBLGS  =  exaggeration
-KPAPBLGT  =  exaggerate
-KPAPBLGTD  =  exaggerated
-KPAPBLGTS  =  exaggerates
-KPAR  =  car
-KPART  =  counterpart
-KPARBT  =  compassionate
-KPARBGT  =  compactor
-KPARPT  =  compartment
-KPARPL  =  example
-KPARPLS  =  examples
-KPARPLT  =  compartment
-KPARPLTD  =  compartment
-KPARPLTS  =  compartments
-KPARPBLGS  =  exaggeration
-KPARPBLGT  =  exaggerate
-KPAFZ  =  emphasize
-KPAFS  =  emphasis
-KPAFT  =  capacity
-KPAFTD  =  capacity
-KPAFTS  =  capacities
-KPAFLT  =  capacity
-KPAFLTD  =  capacity
-KPAFLTS  =  capacities
-KPAFPT  =  capacity
-KPAFPL  =  example
-KPAFPLS  =  examples
-KPAFPBS  =  capacitance
-KPAFPBSZ  =  capacitances
-KPAFRT  =  capacitor
-KPAFRTS  =  capacitors
-KPAFRTSZ  =  capacities
-KPAFRGS  =  exacerbation
-KPAFRLT  =  capacity
-KPAFRLTS  =  capacities
-KPAFRLTSZ  =  capacities
-KPAFRBD  =  exacerbated
-KPAFRBT  =  exacerbate
-KPAFRBTD  =  exacerbated
-KPAFRBTS  =  exacerbates
-KPAFRBGS  =  exacerbation
-KPAFRBGSZ  =  exacerbations
-KPAFRBGT  =  exacerbating
-KPAFRBGTD  =  exacerbated
-KPAFRBLD  =  exacerbated
-KPAFRBLT  =  exacerbate"
-"KPAFR""",
