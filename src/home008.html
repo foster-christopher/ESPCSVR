@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PHRASE and BRIEF FINDER</title>
+<style>
+    #searchInput {
+        margin-bottom: 10px;
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+    }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+    th {
+        background-color: #008080;
+        color: white;
+    }
+    #searchButton {
+        margin-bottom: 10px;
+    }
+</style>
+</head>
+<body>
+    
+<input type="text" id="searchInput" placeholder="Search for terms..">
+<button id="searchButton" onclick="search()">Search</button>
+
+<table id="dataTable">
+  <thead>
+    <tr>
+      <th>English</th>
+      <th>Steno</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Table body will be populated dynamically -->
+  </tbody>
+</table>
+
+<script>
+var csvData = [];
+
+// Function to read CSV file
+function readCSV() {
+    var csvFilePath = 'https://raw.githubusercontent.com/foster-christopher/ESPCSVR/main/finalData003.csv';
+    fetch(csvFilePath)
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+        return response.text();
+    })
+    .then(data => {
+        console.log('CSV data fetched successfully');
+        var rows = data.split("\n");
+        for (var i = 0; i < rows.length; i++) {
+            var cells = [];
+            var content = '';
+            var insideQuote = false;
+            for (var j = 0; j < rows[i].length; j++) {
+                if (rows[i][j] === '"') {
+                    insideQuote = !insideQuote;
+                } else if (rows[i][j] === ',' && !insideQuote) {
+                    cells.push(content.trim());
+                    content = '';
+                } else {
+                    content += rows[i][j];
+                }
+            }
+            cells.push(content.trim()); // Push the remaining content
+            if (cells.length > 1) {
+                csvData.push(cells);
+            }
+        }
+        console.log('CSV data loaded into memory');
+    })
+    .catch(error => console.error('Error fetching CSV file:', error));
+}
+
+// Populate table based on search filter
+function populateTable(filter) {
+    const tableBody = document.getElementById("dataTable").getElementsByTagName('tbody')[0];
+    tableBody.innerHTML = ""; // Clear existing table data
+
+    filter = filter.toUpperCase();
+    let index = 0;
+
+    function renderRows() {
+        const batchSize = 50; // Process rows in small batches
+        for (let i = 0; i < batchSize && index < csvData.length; i++, index++) {
+            const cells = csvData[index];
+            const steno = cells[0].toUpperCase(); // Steno data
+            const english = cells[1].toUpperCase(); // English data
+
+            if (steno.includes(filter) || english.includes(filter)) {
+                const row = tableBody.insertRow(-1);
+                row.insertCell(-1).innerText = cells[1]; // English data in the left column
+                row.insertCell(-1).innerText = cells[0]; // Steno data in the right column
+            }
+        }
+        if (index < csvData.length) {
+            requestAnimationFrame(renderRows);
+        }
+    }
+
+    renderRows();
+}
+
+
+
+// Search function defined outside of DOMContentLoaded to ensure it is globally accessible
+function search() {
+    var input = document.getElementById("searchInput");
+    var filter = input.value;
+    populateTable(filter);
+}
+
+// Ensure the script runs after the DOM is fully loaded
+document.addEventListener('DOMContentLoaded', function() {
+    // Load CSV data when page loads
+    readCSV();
+
+    // Add event listener to the search input to trigger search on keydown event
+    document.getElementById("searchInput").addEventListener("keydown", function(event) {
+        if (event.key.length === 1 || event.key === "Backspace" || event.key === "Enter") {
+            search();
+        }
+    });
+});
+
+</script>
+
+</body>
+</html>
